@@ -1,0 +1,151 @@
+#uiContainer,
+#landingContainer {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-size: cover;
+  background-position: center;
+
+  background-color: whitesmoke;
+}
+
+#searchDoctorsContainer {
+  height: 100%;
+  width: 100%;
+  min-height: calc(100vh - 88px);
+  min-width: 100vw;
+  background-size: cover;
+  background-position: center;
+
+  background-color: whitesmoke;
+}
+
+#landingContainer {
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+}
+
+.fakeLink {
+  color: #1d76ce;
+  cursor: pointer;
+}
+
+.selectedMenuBar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #0e6171;
+}
+
+.txtAreaCustom {
+  color: rgb(75, 75, 75);
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 16px;
+  padding-left: 13px;
+  border-radius: 4px;
+  border: 1px solid #cad4da;
+  resize: none;
+  font-weight: 400;
+}
+
+.txtAreaCustomSplit {
+  color: rgb(75, 75, 75);
+  font-size: 16px;
+  width: 73%;
+  padding: 10px;
+  padding-bottom: 16px;
+  padding-left: 13px;
+  border-radius: 4px;
+  border: 1px solid #cad4da;
+  resize: none;
+  font-weight: 400;
+}
+
+.txtAreaCustom::placeholder,
+.txtAreaCustomSplit::placeholder {
+  color: rgb(171, 168, 167);
+  font-weight: 300;
+}
+
+.txtAreaCustom:focus,
+.txtAreaCustomSplit:focus {
+  outline: none;
+  border: 1px solid #3367b5;
+  box-shadow: 0 0 0 0.2rem hsla(203, 80%, 43%, 0.25);
+}
+
+.consult_rate {
+  position: relative;
+  right: 17px;
+  width: 231px;
+}
+
+.consult_rate .MuiTypography-root {
+  color: rgb(154, 154, 154);
+  font-weight: 300;
+}
+
+.consult_rate .MuiInputBase-input {
+  padding-left: 21px !important;
+}
+
+.consult_rate .MuiInputBase-input::placeholder {
+  padding-left: 0px;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 44px;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:focus {
+  outline: none;
+  border: 1px solid #3367b5;
+  box-shadow: 0 0 0 0.2rem hsla(203, 80%, 43%, 0.25);
+}
+
+.delBtn:hover img {
+  filter: invert(100%);
+}
+
+.unselectable {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.cellShadowBorder {
+  /* box-shadow: 1px 0 0 0 grey, 0 1px 0 0 grey, 1px 1px 0 0 rgb(130, 12, 12); */
+  outline: 0.1px solid grey;
+}
+
+#outlined-adornment-weight::placeholder {
+  opacity: 100%;
+  font-style: italic;
+}
+
+.findDocBtns {
+  position: absolute;
+  cursor: pointer;
+  padding: 3px 4px;
+  border-radius: 3px;
+  border: none;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 2px 1px #00000035;
+}
+
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-left: 9px !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root,
+.MuiDialogActions-root {
+  display: none !important;
+}
