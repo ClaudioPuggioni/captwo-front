@@ -72,7 +72,8 @@ const initialState = {
   doctors: null,
   filters: null,
   toBookDoctor: null,
-  chosenDoctor: null,
+  chosenDoctor: false,
+  currentConsultation: false,
 };
 
 const dataSlice = createSlice({

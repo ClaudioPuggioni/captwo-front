@@ -178,7 +178,7 @@ export default function Dashboard() {
   const [currDay, setCurrDay] = useState("sunday");
 
   useEffect(() => {
-    if (!onboard) goTo(`/${userType.toLowerCase()}/home`);
+    if (onboard) goTo(`/${userType.toLowerCase()}/home`);
   }, [onboard]);
 
   const preventEnterSubmit = (e) => {

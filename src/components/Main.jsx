@@ -35,7 +35,9 @@ export default function Main() {
     if (!lgn && pathname !== "/verify" && pathname !== "/updatepw") {
       goTo("/landing");
     } else if (lgn) {
-      goTo("/");
+      goTo(`/${userType.toLowerCase()}/home`);
+    } else if (!lgn) {
+      goTo("/landing");
     }
     // eslint-disable-next-line
   }, [lgn]);
